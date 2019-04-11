@@ -1,0 +1,231 @@
+a {
+  color: brown;
+}
+.site-header {
+  /* display: grid;
+  grid-template-columns: 30% 68%; */
+}
+.site-branding {
+  width: 100%;
+  text-align: center;
+}
+.main-navigation {
+  width: 100%;
+  text-align: center;
+}
+
+.main-navigation ul {
+  padding: 10px;
+  padding-left: 50px;
+}
+.main-navigation ul li:hover {
+  background: brown;
+}
+
+.main-navigation ul li a {
+  text-align: center;
+  color: brown;
+  padding: 10px;
+}
+.main-navigation ul li a:hover {
+  color: white;
+}
+
+/* .site-content {
+  display: grid;
+  grid-template-columns: 25% 70%;
+  grid-column-gap: 5px;
+  margin: 0 auto;
+} */
+.content-area {
+  width: 70%;
+  float: left;
+  padding: 5px 20px;
+}
+.widget-area {
+  width: 30%;
+  float: left;
+  padding: 5px 20px;
+}
+.post-article {
+  border: 1px solid #d8d8d8;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 5px 20px;
+  float: left;
+  width: 48%;
+  margin-right: 10px;
+}
+.entry-title {
+  text-align: center;
+}
+
+.entry-title a {
+  color: brown;
+  text-decoration: none;
+}
+.wondah-post-thumnail {
+  height: 250px;
+}
+.wondah-post-thumnail img {
+  width: 100%;
+  height: 100%;
+}
+.posts-navigation {
+  clear: both;
+}
+
+.entry-meta,
+.entry-footer {
+  font-style: italic;
+  color: gray;
+}
+.nav-previous {
+  clear: both;
+  width: 100%;
+  padding: 0 30px;
+  text-align: center;
+}
+.nav-previous a,
+.entry-meta a,
+.entry-footer a {
+  color: brown;
+  text-decoration: none;
+  padding-right: 10px;
+}
+.nav-previous a:hover,
+.entry-meta a:hover,
+.entry-footer:hover {
+  color: chocolate;
+}
+
+.post-article-single {
+  width: 100%;
+}
+
+.read-more-btn a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 30px;
+  background: brown;
+  border-radius: 5px;
+}
+.read-more-btn a:hover {
+  background: chocolate;
+}
+.read-more-btn {
+  margin-bottom: 20px;
+}
+
+/* Footer Widgets */
+.site-footer {
+  clear: both;
+  border: #d8d8d8 1px solid;
+}
+.quarter,
+.one-third,
+.two-thirds,
+.half {
+  float: left;
+}
+.one-third {
+  width: 32%;
+}
+.two-thirds {
+  width: 65.5%;
+}
+.quarter {
+  width: 23.5%;
+}
+.three-quarters {
+  width: 74.5%;
+}
+.half {
+  width: 48%;
+}
+.one-third {
+  margin: 0 0.5%;
+}
+.quarter,
+.two-thirds {
+  margin: 0 0.5%;
+}
+.left,
+.quarter.left,
+.one-third.left {
+  margin: 0 1% 0 0;
+  float: left;
+}
+.right,
+.quarter.right,
+.one-third.right {
+  margin: 0 0 0 1%;
+  float: right;
+}
+.half.left {
+  width: 48%;
+  margin: 0 2% 0 0;
+}
+.half.right {
+  width: 48%;
+  margin: 0 0 0 2%;
+}
+.two-thirds.left {
+  margin: 0 1% 0 0;
+}
+.two-thirds.right {
+  margin: 0 0 0 1%;
+  float: right;
+}
+.site-info {
+  clear: both;
+  width: 100%;
+  background: whitesmoke;
+  height: 100px;
+  text-align: center;
+  padding: 20px;
+}
+
+@media screen and (max-width: 780px) {
+  .content-area {
+    width: 100%;
+  }
+  .post-article {
+    width: 100%;
+  }
+
+  /* .widget-area {
+    width: 100%;
+  } */
+  /* only the .quarter layout class is relevant here - all other classes will have full width */
+  .quarter {
+    width: 48%;
+  }
+  .quarter.left {
+    margin-right: 2%;
+  }
+  .quarter.right {
+    margin-left: 2%;
+  }
+  footer .third.quarter.widget-area {
+    clear: both;
+  }
+}
+
+/* media queries for small screens in landscape mode (or similar) */
+@media screen and (max-width: 600px) {
+  /* width sizing all full width in small screens */
+  .quarter,
+  .one-third,
+  .half,
+  .two-thirds,
+  .three-quarters,
+  .full-width {
+    width: 100%;
+    margin: 0;
+  }
+  /* padding adjustments */
+  .widget-area {
+    padding: 0 0 10px 0;
+  }
+}
