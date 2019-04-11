@@ -1,1 +1,1 @@
-Read me file
+Simple Theme Designed by Sylva
